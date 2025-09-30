@@ -1,6 +1,6 @@
 import { Card } from 'react-bootstrap';
 import Rating from './Rating';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 function Product({ product }) {
   const navigate = useNavigate();

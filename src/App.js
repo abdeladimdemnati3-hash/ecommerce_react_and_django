@@ -2,7 +2,7 @@ import Header from './component/Header';
 import Footer from './component/Footer';
 import  HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScrean';
-import { Routes, Route } from "react-router";
+import { Routes, Route } from "react-router-dom";
 
   
 function App() {
