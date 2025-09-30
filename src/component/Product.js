@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router';
 
 function Product({ product }) {
   const navigate = useNavigate();
+  // console.log(product);
   return ( 
     <Card className='my-3 p-3 rounded '
         onClick={() => navigate(`/product/${product._id}`)}>
